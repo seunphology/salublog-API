@@ -76,6 +76,10 @@ res.status(200).json(updatedPost)
         const post = await Post.findById(req.params.id);
 
         
+
+        
+
+        
       
       
         res.status(200).json(post);

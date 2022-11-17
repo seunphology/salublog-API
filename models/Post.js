@@ -32,17 +32,22 @@ description: {
 reading_time: {
     type: Number,
 },
-read_count: {
+readCount: {
 
     type: Number,
 
     default:0
 },
 
-isPublished: {
+readingTime: {
+    type: Number,
+    tags:[String]
+},
 
-    type: Boolean,
-    default: true
+state: {
+
+    type: String,
+    default: 'draft', enum: ['draft', 'published']
 },
 
 
