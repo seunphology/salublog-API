@@ -47,6 +47,7 @@ readingTime: {
 state: {
 
     type: String,
+    required: true,
     default: 'draft', enum: ['draft', 'published']
 },
 
